@@ -79,7 +79,8 @@ df13 = df.groupby('name')
 
 #For question 14
 df14 = df.loc[(df['gender'] == 'M')]
-grouped8 = df14.groupby('name')
+grouped8 = df14.groupby('gender')
+
 
 
 #For question 15
